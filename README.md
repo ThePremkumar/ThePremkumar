@@ -1,13 +1,13 @@
 <div align="center">
 
-```
+<pre>
 ██████╗ ██████╗ ███████╗███╗   ███╗    ██╗  ██╗██╗   ██╗███╗   ███╗ █████╗ ██████╗
 ██╔══██╗██╔══██╗██╔════╝████╗ ████║    ██║ ██╔╝██║   ██║████╗ ████║██╔══██╗██╔══██╗
 ██████╔╝██████╔╝█████╗  ██╔████╔██║    █████╔╝ ██║   ██║██╔████╔██║███████║██████╔╝
 ██╔═══╝ ██╔══██╗██╔══╝  ██║╚██╔╝██║    ██╔═██╗ ██║   ██║██║╚██╔╝██║██╔══██║██╔══██╗
 ██║     ██║  ██║███████╗██║ ╚═╝ ██║    ██║  ██╗╚██████╔╝██║ ╚═╝ ██║██║  ██║██║  ██║
 ╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
-```
+</pre>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Infrastructure+as+Code+%E2%80%94+Terraform+%7C+Ansible;Cloud+Engineering+%E2%80%94+AWS+%7C+EC2+%7C+S3+%7C+IAM+%7C+VPC;CI%2FCD+Pipelines+%E2%80%94+GitHub+Actions+%7C+Docker;Monitoring+%26+Observability+%E2%80%94+Prometheus+%7C+Grafana;Container+Orchestration+%E2%80%94+Kubernetes+(CKA+Track))](https://github.com/ThePremkumar)
 
@@ -401,10 +401,10 @@ NACLs (stateless, subnet-level):
 
 ### 💬 Closing Thought
 
-```
+<pre>
 "Automate the boring stuff. Document the complex stuff.
  Version-control everything else."
-```
+</pre>
 
 ![Visitors](https://komarev.com/ghpvc/?username=ThePremkumar&color=58a6ff&style=flat-square&label=Total+Visits)
 
