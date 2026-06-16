@@ -6,6 +6,10 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch: # Allow manual trigger
 
+# ✅ Required: gives the workflow write access to push the output branch
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -19,11 +23,16 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push snake SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "chore: update snake animation [skip ci]"
+          fqdn: false
+          jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
